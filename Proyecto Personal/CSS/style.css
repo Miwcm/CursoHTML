@@ -1,0 +1,98 @@
+/*Aca va el import de fuentes*/
+
+ *{/*reseteo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: auto;/*Centra un contenedor*/
+    background-color: #405f8b;
+    
+}
+
+header {
+    height: 146px;
+    background-color:#193342;
+}
+    header nav{
+        display: flex;
+        background-color: #193342;
+        align-items: center;
+    }
+
+    header nav a{
+        color: #f0ebd8;
+        font-size: 24px;
+        padding: 16px;
+        text-decoration: none;
+        background-color:#193342;
+    }
+    
+    header nav img{
+    width: 295px;
+    }
+     
+main {
+    min-height: 820px;
+    background-color: #405779;
+}
+    #hero-banner{
+    height: 500px;
+    background-image: url(../imagenes/ropas.png);
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-shadow: 0px 0px 6px rgb(1, 2, 20);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+    }
+        #hero-banner h1{  
+            padding: 50px;      
+            margin-top: 150px;
+            margin-left: 150px;
+        }
+        #hero-banner h2{
+            margin-top: 300px;
+        }
+
+
+    #articulos {
+    height: 500px;
+    background-color: #193342;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 48px;
+    }
+        #articulos article{
+            width: 371px;
+            height: 500px;
+            background-color: #6da4c4;
+            
+        }
+
+footer {
+    height: 240px;
+    background-color: #08295A;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+    footer section{
+        width: 371px;
+    }
+
+    footer h6{
+        font-size: 20px;
+    }
+
+
+
+    
